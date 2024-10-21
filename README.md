@@ -1,4 +1,4 @@
-# Chat Room
+# 💬 Chat Room
 
 ![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room) <!-- Adicione uma imagem ou logo do projeto aqui -->
 
