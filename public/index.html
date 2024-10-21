@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Chat | By Felipe Barreto Passos</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Link do Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body
+  class="bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 flex flex-col items-center justify-center min-h-screen p-4">
+  <div id="header" class="w-full max-w-5xl mb-4 hidden">
+    <h1 id="room-title" class="text-2xl font-bold">Sala: </h1>
+  </div>
+
+  <div id="room-section" class="w-full max-w-md mb-4 flex flex-col items-center">
+    <input id="room-input" class="border rounded p-2 w-full mb-2" placeholder="Digite o nome da sala..." />
+    <input id="nickname-input" class="border rounded p-2 w-full mb-4" placeholder="Digite seu nickname..." />
+    <button id="join-button" class="bg-blue-500 text-white rounded px-4 py-2 w-full">Entrar na Sala</button>
+  </div>
+
+  <div id="chat-section" class="w-full max-w-5xl mb-4 hidden flex flex-col">
+    <div class="flex flex-col md:flex-row flex-grow">
+      <div id="messages"
+        class="border rounded p-4 mb-2 h-64 overflow-y-scroll bg-white dark:bg-gray-700 md:flex-grow md:mr-4">
+        <!-- Histórico de mensagens -->
+      </div>
+
+      <div id="users" class="border rounded-lg p-4 bg-white shadow-lg w-full md:w-1/4 md:ml-4">
+        <div class="flex items-center mb-4">
+          <div id="radar" class="radar mr-2"></div> <!-- Bola radar aqui -->
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Usuários Online</h2>
+        </div>
+        <ul id="user-list" class="space-y-2">
+          <!-- Lista de usuários será preenchida aqui -->
+        </ul>
+      </div>
+    </div>
+
+    <div class="mt-4">
+      <input id="message-input" class="border rounded p-2 w-full mb-2" placeholder="Digite sua mensagem..." />
+      <button id="send-button" class="bg-blue-500 text-white rounded px-4 py-2 w-full">Enviar</button>
+    </div>
+  </div>
+
+  <!-- Seção de informações do desenvolvedor -->
+  <footer class="w-full max-w-5xl mt-4 text-center">
+    <p class="text-sm mb-2">&copy; 2024 Felipe Barreto Passos. Todos os direitos reservados.</p>
+    <a href="https://github.com/felipebpassos/seu-repositorio" target="_blank" class="text-blue-500 hover:underline">
+      <i class="fab fa-github text-xl mr-1"></i> <!-- Ícone do GitHub -->
+      GitHub
+    </a>
+  </footer>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="chat.js"></script>
+</body>
+
+</html>
