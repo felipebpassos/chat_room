@@ -1,0 +1,61 @@
+# Chat Room
+
+![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room) <!-- Adicione uma imagem ou logo do projeto aqui -->
+
+## Descrição
+
+**Chat Room** é um aplicativo de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets para comunicação instantânea e inclui medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
+
+## Funcionalidades
+
+- **Criação de Salas**: Usuários podem criar e entrar em salas de chat.
+- **Mensagens em Tempo Real**: Troca instantânea de mensagens entre usuários conectados.
+- **Lista de Usuários Online**: Visualização de usuários ativos em cada sala.
+- **Segurança**: Mensagens são sanitizadas para proteger contra códigos maliciosos.
+
+## Tecnologias Utilizadas
+
+- **Backend**: Node.js, Express
+- **WebSockets**: Socket.io
+- **Segurança**: xss (para proteção contra XSS)
+- **Frontend**: HTML, CSS (com Tailwind CSS) e JavaScript
+
+## Pré-requisitos
+
+- [Node.js](https://nodejs.org/) (versão 14 ou superior)
+- NPM (geralmente instalado junto com o Node.js)
+
+## Instalação
+
+Siga os passos abaixo para configurar o ambiente e executar o projeto:
+
+1. **Clone o repositório:**
+   - `git clone https://github.com/seu-usuario/chat_room.git`
+   - `cd chat_room`
+
+2. **Instale as dependências:**
+   - `npm install`
+
+3. **Inicie o servidor:**
+   - `npm start`
+
+4. **Acesse o aplicativo:**
+   - Abra seu navegador e vá para `http://localhost:3000`.
+
+## Uso
+
+1. Digite o nome da sala que deseja entrar e seu nickname.
+2. Clique no botão "Entrar na Sala".
+3. Envie mensagens e veja as mensagens de outros usuários em tempo real.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Licença
+
+Este projeto é licenciado sob a Licença ISC. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Criado por [Felipe Barreto Passos](https://github.com/felipebpassos). Se você tiver dúvidas, sinta-se à vontade para entrar em contato.
