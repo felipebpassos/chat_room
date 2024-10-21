@@ -23,7 +23,6 @@
 ## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (versão 14 ou superior)
-- NPM (geralmente instalado junto com o Node.js)
 
 ## Instalação
 
@@ -44,13 +43,9 @@ Siga os passos abaixo para configurar o ambiente e executar o projeto:
 
 ## Uso
 
-1. Digite o nome da sala que deseja entrar e seu nickname.
+1. Digite o nome da sala que deseja entrar ou criar e abaixo seu nickname.
 2. Clique no botão "Entrar na Sala".
 3. Envie mensagens e veja as mensagens de outros usuários em tempo real.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 
