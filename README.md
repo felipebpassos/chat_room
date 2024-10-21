@@ -4,7 +4,7 @@
 
 ## Descrição
 
-**Chat Room** é um aplicativo de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets para comunicação instantânea e inclui medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
+**Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets (sockets.io) em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
 
 ## Funcionalidades
 
