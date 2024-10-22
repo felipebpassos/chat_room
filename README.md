@@ -1,9 +1,11 @@
 # 💬 Chat Room
+# 💬 Chat Room
 
 ![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room) <!-- Adicione uma imagem ou logo do projeto aqui -->
 
 ## Descrição
 
+**Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets (sockets.io) em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
 **Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets (sockets.io) em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
 
 ## Funcionalidades
@@ -45,6 +47,7 @@ Siga os passos abaixo para configurar o ambiente e executar o projeto:
 
 ## Uso
 
+1. Digite o nome da sala que deseja entrar ou criar e abaixo seu nickname.
 1. Digite o nome da sala que deseja entrar ou criar e abaixo seu nickname.
 2. Clique no botão "Entrar na Sala".
 3. Envie mensagens e veja as mensagens de outros usuários em tempo real.
