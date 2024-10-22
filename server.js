@@ -21,29 +21,35 @@ app.get('/', (req, res) => {
 // Armazena salas e os usuários conectados a cada sala
 const rooms = {}; // Objeto para armazenar as salas
 
+// Função de sanitização para nicknames e nomes de salas
+const sanitizeInput = (input) => xss(input); // Usa xss para remover scripts maliciosos
+
 io.on('connection', (socket) => {
     console.log('Usuário conectado');
 
     // Entrar em uma sala
     socket.on('join room', (room, nickname) => {
-        socket.join(room);
-        socket.nickname = nickname; // Armazena o nickname no socket
+        const sanitizedRoom = sanitizeInput(room); // Sanitiza o nome da sala
+        const sanitizedNickname = sanitizeInput(nickname); // Sanitiza o nickname
+        socket.join(sanitizedRoom);
+        socket.nickname = sanitizedNickname; // Armazena o nickname sanitizado no socket
 
-        if (!rooms[room]) {
-            rooms[room] = []; // Cria a sala se não existir
+        if (!rooms[sanitizedRoom]) {
+            rooms[sanitizedRoom] = []; // Cria a sala se não existir
         }
-        rooms[room].push(nickname); // Adiciona o nickname à sala
+        rooms[sanitizedRoom].push(sanitizedNickname); // Adiciona o nickname sanitizado à sala
 
-        io.to(room).emit('chat message', `${nickname} entrou na sala ${room}`, new Date().toISOString());
-        io.to(room).emit('update users', rooms[room]); // Envia a lista atualizada de usuários para a sala
-        console.log(`Usuário ${nickname} entrou na sala ${room}`);
+        io.to(sanitizedRoom).emit('chat message', `${sanitizedNickname} entrou na sala ${sanitizedRoom}`, new Date().toISOString());
+        io.to(sanitizedRoom).emit('update users', rooms[sanitizedRoom]); // Envia a lista atualizada de usuários para a sala
+        console.log(`Usuário ${sanitizedNickname} entrou na sala ${sanitizedRoom}`);
     });
 
     // Recebe mensagem do cliente e transmite para a sala correspondente
     socket.on('chat message', (room, msg) => {
+        const sanitizedRoom = sanitizeInput(room); // Sanitiza o nome da sala
         const sanitizedMessage = xss(msg); // Limpa a mensagem de scripts maliciosos
         const timestamp = new Date().toISOString(); // Gera timestamp no backend
-        io.to(room).emit('chat message', `${socket.nickname}: ${sanitizedMessage}`, timestamp); // Envia a mensagem sanitizada com timestamp
+        io.to(sanitizedRoom).emit('chat message', `${socket.nickname}: ${sanitizedMessage}`, timestamp); // Envia a mensagem sanitizada com timestamp
     });
 
     // Desconectar
@@ -63,3 +69,4 @@ io.on('connection', (socket) => {
 server.listen(3000, () => {
     console.log('Servidor rodando em http://localhost:3000');
 });
+

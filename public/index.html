@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Simple Chat | By Felipe Barreto Passos</title>
   <link rel="stylesheet" href="styles.css">
+  <!-- CDN do Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Link do Font Awesome -->
+  <!-- CDN do Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,6 +20,7 @@
     <h1 id="room-title" class="text-2xl font-bold">Sala: </h1>
   </div>
 
+  <!-- Campos para criar/entrar em sala -->
   <div id="room-section" class="w-full max-w-md mb-4 flex flex-col items-center">
     <input id="room-input" class="border rounded p-2 w-full mb-2" placeholder="Digite o nome da sala..." />
     <input id="nickname-input" class="border rounded p-2 w-full mb-4" placeholder="Digite seu nickname..." />
@@ -34,7 +36,7 @@
 
       <div id="users" class="border rounded-lg p-4 bg-white shadow-lg w-full md:w-1/4 md:ml-4">
         <div class="flex items-center mb-4">
-          <div id="radar" class="radar mr-2"></div> <!-- Bola radar aqui -->
+          <div id="radar" class="radar mr-2"></div>
           <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-100">Usuários Online</h2>
         </div>
         <ul id="user-list" class="space-y-2">
@@ -52,7 +54,7 @@
   <!-- Seção de informações do desenvolvedor -->
   <footer class="w-full max-w-5xl mt-4 text-center">
     <p class="text-sm mb-2">&copy; 2024 Felipe Barreto Passos. Todos os direitos reservados.</p>
-    <a href="https://github.com/felipebpassos/chat_room" target="_blank" class="text-blue-500 hover:underline">
+    <a href="https://github.com/felipebpassos/simple-websockets-chat-app" target="_blank" class="text-blue-500 hover:underline">
       <i class="fab fa-github text-xl mr-1"></i> <!-- Ícone do GitHub -->
       GitHub
     </a>

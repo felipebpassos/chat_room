@@ -1,10 +1,10 @@
-# Chat Room
+# 💬 Chat Room
 
 ![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room) <!-- Adicione uma imagem ou logo do projeto aqui -->
 
 ## Descrição
 
-**Chat Room** é um aplicativo de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets para comunicação instantânea e inclui medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
+**Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets (sockets.io) em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
 
 ## Funcionalidades
 
@@ -23,34 +23,31 @@
 ## Pré-requisitos
 
 - [Node.js](https://nodejs.org/) (versão 14 ou superior)
-- NPM (geralmente instalado junto com o Node.js)
 
 ## Instalação
 
 Siga os passos abaixo para configurar o ambiente e executar o projeto:
 
-1. **Clone o repositório:**
-   - `git clone https://github.com/seu-usuario/chat_room.git`
-   - `cd chat_room`
+1. **Abra o terminal e vá para um diretório a sua escolha**
 
-2. **Instale as dependências:**
+2. **Clone o repositório:**
+   - `git clone https://github.com/felipebpassos/simple-websockets-chat-app.git`
+   - `cd simple-websockets-chat-app`
+
+3. **Instale as dependências:**
    - `npm install`
 
 3. **Inicie o servidor:**
-   - `npm start`
+   - `node server.js`
 
 4. **Acesse o aplicativo:**
    - Abra seu navegador e vá para `http://localhost:3000`.
 
 ## Uso
 
-1. Digite o nome da sala que deseja entrar e seu nickname.
+1. Digite o nome da sala que deseja entrar ou criar e abaixo seu nickname.
 2. Clique no botão "Entrar na Sala".
 3. Envie mensagens e veja as mensagens de outros usuários em tempo real.
-
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ## Licença
 
