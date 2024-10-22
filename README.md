@@ -2,7 +2,7 @@
 
 ![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room)
 
-![Live Demo][(https://img.shields.io/badge/Live%20Demo-Available-brightgreen)](https://simple-websockets-chat-app-a1z6.onrender.com)
+![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)(https://simple-websockets-chat-app-a1z6.onrender.com)
 
 ## Descrição
 
