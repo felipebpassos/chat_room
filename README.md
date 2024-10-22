@@ -1,6 +1,7 @@
 # 💬 Chat Room
 
-![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room) <!-- Adicione uma imagem ou logo do projeto aqui -->
+![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room)
+[![Demo][(https://img.shields.io/badge/Portfolio-Visit%20My%20Site-blue)](https://simple-websockets-chat-app-a1z6.onrender.com)]
 
 ## Descrição
 
