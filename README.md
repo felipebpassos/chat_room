@@ -28,15 +28,17 @@
 
 Siga os passos abaixo para configurar o ambiente e executar o projeto:
 
-1. **Clone o repositório:**
-   - `git clone https://github.com/seu-usuario/chat_room.git`
+1. **Abra o terminal e vá para um diretório a sua escolha**
+
+2. **Clone o repositório:**
+   - `git clone https://github.com/felipebpassos/chat_room.git`
    - `cd chat_room`
 
-2. **Instale as dependências:**
+3. **Instale as dependências:**
    - `npm install`
 
 3. **Inicie o servidor:**
-   - `npm start`
+   - `node server.js`
 
 4. **Acesse o aplicativo:**
    - Abra seu navegador e vá para `http://localhost:3000`.
