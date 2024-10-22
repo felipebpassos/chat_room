@@ -4,7 +4,7 @@
 
 ![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)
 
-[Clique aqui.](https://simple-websockets-chat-app-a1z6.onrender.com)
+[Teste aqui](https://simple-websockets-chat-app-a1z6.onrender.com)
 
 ## Descrição
 
