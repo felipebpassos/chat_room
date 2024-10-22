@@ -1,5 +1,4 @@
 # 💬 Chat Room
-# 💬 Chat Room
 
 ![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room) <!-- Adicione uma imagem ou logo do projeto aqui -->
 
@@ -51,10 +50,6 @@ Siga os passos abaixo para configurar o ambiente e executar o projeto:
 1. Digite o nome da sala que deseja entrar ou criar e abaixo seu nickname.
 2. Clique no botão "Entrar na Sala".
 3. Envie mensagens e veja as mensagens de outros usuários em tempo real.
-
-## Licença
-
-Este projeto é licenciado sob a Licença ISC. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ## Contato
 
