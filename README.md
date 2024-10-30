@@ -5,13 +5,13 @@
     <img src="https://github.com/felipebpassos/simple-websockets-chat-app/blob/master/screenshot02.png?raw=true" alt="Image Example" width="400px">
 </p>
 
-<p align="center">
+<div align="center">
  ![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)
-</p>
+</div>
 
-<p align="center">
+<div align="center">
 [Teste aqui](https://simple-websockets-chat-app-a1z6.onrender.com)
-</p>
+</div>
 
 ## Descrição
 
