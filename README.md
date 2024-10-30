@@ -7,7 +7,9 @@
 
 <p align="center">
  ![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)
+</p>
 
+<p align="center">
 [Teste aqui](https://simple-websockets-chat-app-a1z6.onrender.com)
 </p>
 
