@@ -39,16 +39,19 @@ Siga os passos abaixo para configurar o ambiente e executar o projeto:
 1. **Abra o terminal e vá para um diretório a sua escolha**
 
 2. **Clone o repositório:**
-   - `git clone https://github.com/felipebpassos/simple-websockets-chat-app.git`
-   - `cd simple-websockets-chat-app`
+   ```bash
+   git clone https://github.com/felipebpassos/simple-websockets-chat-app.git
+   cd simple-websockets-chat-app
 
-3. **Instale as dependências:**
-   - `npm install`
+4. **Instale as dependências:**
+   ```bash
+   npm install
 
 3. **Inicie o servidor:**
-   - `node server.js`
+   ```bash
+   node server.js
 
-4. **Acesse o aplicativo:**
+5. **Acesse o aplicativo:**
    - Abra seu navegador e vá para `http://localhost:3000`.
 
 ## Uso
