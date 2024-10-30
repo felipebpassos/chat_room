@@ -5,6 +5,8 @@
     <img src="https://github.com/felipebpassos/simple-websockets-chat-app/blob/master/screenshot02.png?raw=true" alt="Image Example" width="400px">
 </p>
 
+<br>
+
 ![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)
 [Teste aqui](https://simple-websockets-chat-app-a1z6.onrender.com)
 
