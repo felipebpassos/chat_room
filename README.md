@@ -1,4 +1,4 @@
-# 💬 Chat Room
+<h1 align="center" style="font-weight: bold;">💬 Chat Room</h1>
 
 <p align="center">
     <img src="https://github.com/felipebpassos/simple-websockets-chat-app/blob/master/screenshot01.png?raw=true" alt="Image Example" width="400px">
@@ -11,8 +11,7 @@
 
 ## Descrição
 
-**Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets (sockets.io) em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
-**Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza WebSockets (sockets.io) em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
+**Chat Room** é uma aplicação web simples de chat em tempo real que permite que usuários se conectem a salas e troquem mensagens de forma interativa e segura. O aplicativo utiliza **WebSockets (sockets.io)** em servidor node express para comunicação instantânea, incluindo medidas de segurança para prevenir ataques de XSS (Cross-Site Scripting).
 
 ## Funcionalidades
 
