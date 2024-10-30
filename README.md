@@ -1,6 +1,9 @@
 # 💬 Chat Room
 
-![Chat Room](https://via.placeholder.com/600x200?text=Chat+Room)
+<p align="center">
+    <img src="https://github.com/felipebpassos/UltimateMembersPublic/blob/main/aula.png?raw=true" alt="Image Example" width="400px">
+    <img src="https://github.com/felipebpassos/UltimateMembersPublic/blob/main/usuarios.png?raw=true" alt="Image Example" width="400px">
+</p>
 
 ![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)
 
