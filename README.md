@@ -2,7 +2,7 @@
 
 <p align="center">
     <img src="https://github.com/felipebpassos/simple-websockets-chat-app/blob/master/screenshot01.png?raw=true" alt="Image Example" width="400px">
-    <img src="https://github.com/felipebpassos/UltimateMembersPublic/blob/main/usuarios.png?raw=true" alt="Image Example" width="400px">
+    <img src="https://github.com/felipebpassos/simple-websockets-chat-app/blob/master/screenshot02.png?raw=true" alt="Image Example" width="400px">
 </p>
 
 ![Live Demo](https://img.shields.io/badge/Live%20Demo-Available-brightgreen)
